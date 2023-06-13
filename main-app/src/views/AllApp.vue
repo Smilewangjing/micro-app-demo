@@ -19,19 +19,14 @@ const activeApp = ref();
 const apps: any = [
   {
     name: "home",
-    url: "http://localhost:5174",
+    url: "http://localhost:5175",
     iframe: true,
   },
-  {
-    name: "about",
-    url: "http://localhost:5173",
-    iframe: true,
-  },
-  {
-    name: "react",
-    url: "http://localhost:5176",
-    iframe: true,
-  },
+  // {
+  //   name: "about",
+  //   url: "http://localhost:5173",
+  //   iframe: true,
+  // },
 ];
 
 const route = useRoute();

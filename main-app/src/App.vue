@@ -26,7 +26,7 @@ const onClick = () => {
     path: "/about",
   });
   // 子路由是child，没有渲染上
-  microApp.router.attachToURL("about");
+  // microApp.router.attachToURL("about");
 };
 </script>
 
